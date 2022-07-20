@@ -1,0 +1,15 @@
+/Users/ianseki/Desktop/Revature/IanS/P0/bin/Debug/net6.0/P0
+/Users/ianseki/Desktop/Revature/IanS/P0/bin/Debug/net6.0/P0.deps.json
+/Users/ianseki/Desktop/Revature/IanS/P0/bin/Debug/net6.0/P0.runtimeconfig.json
+/Users/ianseki/Desktop/Revature/IanS/P0/bin/Debug/net6.0/P0.dll
+/Users/ianseki/Desktop/Revature/IanS/P0/bin/Debug/net6.0/P0.pdb
+/Users/ianseki/Desktop/Revature/IanS/P0/obj/Debug/net6.0/P0.csproj.AssemblyReference.cache
+/Users/ianseki/Desktop/Revature/IanS/P0/obj/Debug/net6.0/P0.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ianseki/Desktop/Revature/IanS/P0/obj/Debug/net6.0/P0.AssemblyInfoInputs.cache
+/Users/ianseki/Desktop/Revature/IanS/P0/obj/Debug/net6.0/P0.AssemblyInfo.cs
+/Users/ianseki/Desktop/Revature/IanS/P0/obj/Debug/net6.0/P0.csproj.CoreCompileInputs.cache
+/Users/ianseki/Desktop/Revature/IanS/P0/obj/Debug/net6.0/P0.dll
+/Users/ianseki/Desktop/Revature/IanS/P0/obj/Debug/net6.0/refint/P0.dll
+/Users/ianseki/Desktop/Revature/IanS/P0/obj/Debug/net6.0/P0.pdb
+/Users/ianseki/Desktop/Revature/IanS/P0/obj/Debug/net6.0/P0.genruntimeconfig.cache
+/Users/ianseki/Desktop/Revature/IanS/P0/obj/Debug/net6.0/ref/P0.dll
