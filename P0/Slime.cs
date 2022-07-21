@@ -28,9 +28,13 @@ namespace Project0
                 Console.WriteLine("Slime takes " + (attack - block) + " damage.");
                 return (slimeHealth);
             }
-            else
+            else if (attack == 0)
             {
                 Console.WriteLine("Slime blocks for: " + block);
+                Console.WriteLine("Slime awkwardly jiggles");
+            }
+            else
+            {
                 Console.WriteLine("Blocked");
             }
 

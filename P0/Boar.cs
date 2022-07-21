@@ -28,6 +28,11 @@ namespace Project0
                 Console.WriteLine("Boar takes " + (attack - block) + " damage.");
                 return (this.health -= attack);
             }
+            else if (attack == 0)
+            {
+                Console.WriteLine("Boar blocks for: " + block);
+                Console.WriteLine("Boar sniffs the air");
+            }
             else
             {
                 Console.WriteLine("Blocked");
