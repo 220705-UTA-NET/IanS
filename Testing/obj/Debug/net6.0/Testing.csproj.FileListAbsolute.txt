@@ -1,0 +1,15 @@
+C:\Users\ian_s\Desktop\Revature\IanS\Testing\obj\Debug\net6.0\Testing.csproj.AssemblyReference.cache
+C:\Users\ian_s\Desktop\Revature\IanS\Testing\obj\Debug\net6.0\Testing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ian_s\Desktop\Revature\IanS\Testing\obj\Debug\net6.0\Testing.AssemblyInfoInputs.cache
+C:\Users\ian_s\Desktop\Revature\IanS\Testing\obj\Debug\net6.0\Testing.AssemblyInfo.cs
+C:\Users\ian_s\Desktop\Revature\IanS\Testing\obj\Debug\net6.0\Testing.csproj.CoreCompileInputs.cache
+C:\Users\ian_s\Desktop\Revature\IanS\Testing\bin\Debug\net6.0\Testing.exe
+C:\Users\ian_s\Desktop\Revature\IanS\Testing\bin\Debug\net6.0\Testing.deps.json
+C:\Users\ian_s\Desktop\Revature\IanS\Testing\bin\Debug\net6.0\Testing.runtimeconfig.json
+C:\Users\ian_s\Desktop\Revature\IanS\Testing\bin\Debug\net6.0\Testing.dll
+C:\Users\ian_s\Desktop\Revature\IanS\Testing\bin\Debug\net6.0\Testing.pdb
+C:\Users\ian_s\Desktop\Revature\IanS\Testing\obj\Debug\net6.0\Testing.dll
+C:\Users\ian_s\Desktop\Revature\IanS\Testing\obj\Debug\net6.0\refint\Testing.dll
+C:\Users\ian_s\Desktop\Revature\IanS\Testing\obj\Debug\net6.0\Testing.pdb
+C:\Users\ian_s\Desktop\Revature\IanS\Testing\obj\Debug\net6.0\Testing.genruntimeconfig.cache
+C:\Users\ian_s\Desktop\Revature\IanS\Testing\obj\Debug\net6.0\ref\Testing.dll
