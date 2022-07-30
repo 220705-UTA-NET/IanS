@@ -2,7 +2,7 @@ using P1API.Data;
 
 string connectionString = "Server=tcp:sekidb.database.windows.net,1433;Initial Catalog=sekidb;" +
     "Persist Security Info=False;" +
-    "User ID=sekiian;Password=Hello97!;MultipleActiveResultSets=False;Encrypt=True;" +
+    "User ID=sekiian;Password={password};MultipleActiveResultSets=False;Encrypt=True;" +
     "TrustServerCertificate=False;Connection Timeout=30;";
 
 var builder = WebApplication.CreateBuilder(args);
