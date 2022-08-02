@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using P1API.Data;
 using P1API.Model;
+using System.Text;
+using System.Text.Json;
 
 namespace P1API.API.Controllers
 {
@@ -10,11 +12,11 @@ namespace P1API.API.Controllers
     public class MonsterController : ControllerBase
     {
         // Fields
-        private readonly IRepository _repo;
+        private readonly IRepositoryMonster _repo;
         private readonly ILogger<MonsterController> _logger;
 
         // Constructor
-        public MonsterController(IRepository repo, ILogger<MonsterController> logger)
+        public MonsterController(IRepositoryMonster repo, ILogger<MonsterController> logger)
         {
             _repo = repo;
             _logger = logger;
@@ -38,7 +40,35 @@ namespace P1API.API.Controllers
                 return StatusCode(500);
             }
 
-            return monsters.ToList();
+            return Ok(monsters.ToList());
+        }
+
+        [HttpGet("{id}")]
+        public async Task<Monster> GetMonsterById(int id)
+        {
+            Monster monster = await _repo.GetMonsterByIdAsync(id);
+
+            return monster;
+        }
+
+        //[HttpPost]
+        //public async Task<Monster> AddMonster([FromBody]Monster newMonster)
+        //{
+        //    var monster = await JsonSerializer.DeserializeAsync<Monster>(newMonster);
+        //    _repo.AddMonsterRepo(monster);
+        //    return monster;
+        //}
+
+        [HttpPut("{id}")]
+        public void UpdateMonster(int id, Monster updateMonster)
+        {
+            _repo.UpdateMonsterAsync(id, updateMonster);
+        }
+
+        [HttpDelete("{id}")]
+        public void DeleteMonster(int id)
+        {
+            _repo.DeleteMonster(id);
         }
     }
 }
