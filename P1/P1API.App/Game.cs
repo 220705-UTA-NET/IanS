@@ -32,14 +32,13 @@ namespace P1API.App
                     }
                     case "2":
                     {
-                        Console.WriteLine("Forgive me this is under construction.");
                         menuChoice = false;
-                        // Monster createdMonster = createMonster();
+                        Monster createdMonster = createMonster();
                         // Console.WriteLine("Monster name: " + createdMonster.name);
                         // Console.WriteLine("Monster health: " + createdMonster.health);
                         // Console.WriteLine("Monster attackMax: " + createdMonster.attackMax);
 
-                        // await MonsterController.AddMonster(createdMonster);
+                        await MonsterController.AddMonster(createdMonster);
 
                         break;
                     }
@@ -94,6 +93,7 @@ namespace P1API.App
                                     // {
                                     //     case "1":
                                     //     {
+
                                     //         stillLooking = true;
                                     //         break;
                                     //     }

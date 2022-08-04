@@ -47,20 +47,18 @@ namespace P1API.API.Controllers
         public async Task<Monster> GetMonsterById(int id)
         {
             Monster monster = await _repo.GetMonsterByIdAsync(id);
-
             return monster;
         }
 
-        //[HttpPost]
-        //public async Task<Monster> AddMonster([FromBody]Monster newMonster)
-        //{
-        //    var monster = await JsonSerializer.DeserializeAsync<Monster>(newMonster);
-        //    _repo.AddMonsterRepo(monster);
-        //    return monster;
-        //}
+        // [FromBody] automatically deserializes under the hood
+        [HttpPost]
+        public void AddMonster([FromBody] Monster newMonster)
+        {
+            _repo.AddMonsterRepo(newMonster);
+        }
 
         [HttpPut("{id}")]
-        public void UpdateMonster(int id, Monster updateMonster)
+        public void UpdateMonster(int id,[FromBody] Monster updateMonster)
         {
             _repo.UpdateMonsterAsync(id, updateMonster);
         }
